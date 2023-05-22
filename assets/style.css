@@ -49,6 +49,10 @@ button:hover {
     background: lightgray;
 }
 
+p {
+    padding: 1em;
+}
+
 nav {
     position: fixed;
     top: 0;
@@ -78,6 +82,7 @@ section {
 
 section > p {
     margin: 1em 0;
+    padding: 1em;
 }
 
 section ul {
