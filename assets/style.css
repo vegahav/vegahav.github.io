@@ -17,6 +17,7 @@ header, body, main, footer {
 }
 header {
     padding: 2em 0;
+    text-align: center;
 }
 
 header h1 {
@@ -25,12 +26,27 @@ header h1 {
 
 h2 {
     text-align: center;
-    
+    background: darkslategrey;
+}
+
+h3 {
+    text-align: center;
 }
 
 header span {
     font-size: 2em;
     color: rgba(1, 63, 1, 0.973);
+}
+
+button {
+    background: darkslategrey;
+    text-decoration: none;
+    color:aliceblue;
+    padding: 0.5em 2em;
+}
+
+button:hover {
+    background: lightgray;
 }
 
 nav {
@@ -56,7 +72,7 @@ nav a:hover {
 
 section {
     margin: 1em 0;
-    padding-top: 5em;
+    padding-top: 10em;
     min-height: 20em;
 }
 
@@ -68,6 +84,20 @@ section ul {
     padding-left: 2em;
 }
 
+#aboutMeContent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+
+#aboutMeContent article {
+    background: gray;
+}
+
+#aboutMeContent article img {
+    width: 100%;
+}
 #projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -83,6 +113,9 @@ section ul {
     width: 100%;
 }
 
+li {
+    list-style-type: circle;
+}
 footer {
     margin-top: 2em;
     margin-bottom: 1em;
