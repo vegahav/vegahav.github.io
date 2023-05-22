@@ -106,8 +106,8 @@ section ul {
 }
 #projects {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: auto;
     grid-column-gap: 1em;
 }
 
@@ -121,6 +121,7 @@ section ul {
 
 li {
     list-style-type: circle;
+    padding: 0.3em;
 }
 footer {
     margin-top: 2em;
