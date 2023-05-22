@@ -78,8 +78,8 @@ nav a:hover {
 }
 
 section {
-    margin: 50em 0;
-    padding-top: 10em;
+    margin-bottom: 80em;
+    padding-top: 5em;
     min-height: 20em;
 }
 
@@ -98,6 +98,12 @@ section ul {
     grid-template-rows: auto;
     grid-column-gap: 1em;
     grid-row-gap: 1em;
+}
+
+#welcomeContent {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
 }
 
 #aboutMeContent article {
