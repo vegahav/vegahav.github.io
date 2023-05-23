@@ -43,9 +43,10 @@ header span {
 
 button {
     background: darkslategrey;
+    border-color: darkslategrey;
     text-decoration: none;
     color:aliceblue;
-    padding: 0.5em 2em;
+    padding: 0.5em 1em;
 }
 
 button:hover {
@@ -78,7 +79,7 @@ nav a:hover {
 }
 
 section {
-    margin-bottom: 80em;
+    margin-bottom: 50em;
     padding-top: 5em;
     min-height: 20em;
 }
@@ -100,15 +101,11 @@ section ul {
     grid-row-gap: 1em;
 }
 
-#biography {
-
-}
-
 #welcomeContent {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
 }
+
 
 #aboutMeContent article {
     background: gray;
@@ -116,6 +113,11 @@ section ul {
 
 #aboutMeContent article img {
     width: 100%;
+}
+
+#logo img {
+    height: 20px;
+    width: 20px;
 }
 
 #welcomeContent article img {
