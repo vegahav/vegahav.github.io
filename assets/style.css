@@ -101,7 +101,7 @@ section ul {
 }
 
 #biography {
-    
+
 }
 
 #welcomeContent {
@@ -115,6 +115,10 @@ section ul {
 }
 
 #aboutMeContent article img {
+    width: 100%;
+}
+
+#welcomeContent article img {
     width: 100%;
 }
 
