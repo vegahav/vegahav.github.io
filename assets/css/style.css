@@ -27,6 +27,7 @@ header h1 {
 }
 
 h2 {
+    color: white;
     text-align: center;
     background: darkslategrey;
     margin: 0.68em 0;
