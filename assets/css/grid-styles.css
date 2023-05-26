@@ -1,0 +1,36 @@
+#aboutMeContent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+
+#welcomeContent {
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+}
+
+#aboutMeContent article {
+    background: gray;
+}
+
+#aboutMeContent article img {
+    width: 100%;
+}
+
+#projects {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: auto;
+    grid-column-gap: 1em;
+    grid-row-gap: 10em;
+}
+
+#projects article {
+    background: gray;
+}
+
+#projects article img {
+    width: 100%;
+}
