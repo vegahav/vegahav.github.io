@@ -40,6 +40,16 @@ h2 {
 
 h3 {
     text-align: center;
+    background-color: var(--secondaryColor);
+    color: white;
+}
+
+h3 a {
+    text-decoration: none;
+}
+
+h3 a:hover {
+    background: var(--hoverColor);
 }
 
 header span {
