@@ -6,7 +6,7 @@ html {
 :root  {
     --primaryColor: rgba(46, 139, 86, 0.144);
     --secondaryColor: darkslategrey;
-    --tertiaryColor: gray;
+    --tertiaryColor: rgb(228, 228, 222);
     --hoverColor: lightgray;
 }
 header, body, main, footer {
@@ -54,7 +54,7 @@ h3 a:hover {
 
 header span {
     font-size: 2em;
-    color: rgba(1, 63, 1, 0.973);
+    color: var(--secondaryColor);
 }
 
 button {
@@ -106,7 +106,7 @@ footer {
     margin-top: 2em;
     margin-bottom: 1em;
     background: var(--secondaryColor);
-    color:beige;
+    color: var(--tertiaryColor);
     padding: 1em 0;
     text-align: center;
 }
