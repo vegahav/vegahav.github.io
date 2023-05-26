@@ -15,6 +15,7 @@
 #aboutMeContent article {
     background: gray;
     justify-content: center;
+    padding: 1em;
 }
 
 #aboutMeContent article img {
