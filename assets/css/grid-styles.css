@@ -12,6 +12,10 @@
    grid-template-columns: 2fr 1fr;
 }
 
+#welcomeContent article{
+    background: var(--tertiaryColor);
+}
+
 #aboutMeContent article {
     background: var(--tertiaryColor);
     justify-content: center;
