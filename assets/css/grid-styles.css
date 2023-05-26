@@ -13,7 +13,7 @@
 }
 
 #aboutMeContent article {
-    background: gray;
+    background: var(--tertiaryColor);
     justify-content: center;
     padding: 1em;
 }
@@ -31,7 +31,7 @@
 }
 
 #projects article {
-    background: gray;
+    background: var(--tertiaryColor);
 }
 
 #projects article img {

@@ -3,7 +3,7 @@ nav {
     top: 0;
     right: 0;
     width: 100%;
-    background: darkslategrey;
+    background: var(--secondaryColor);
     display: flex;
     flex-flow: row;
     justify-content: center;
@@ -16,5 +16,5 @@ nav a {
 }
 
 nav a:hover {
-    background: lightgray;
+    background: var(--hoverColor);
 }

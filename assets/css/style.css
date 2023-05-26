@@ -1,9 +1,14 @@
 html {
-    background-color: rgba(46, 139, 86, 0.144);
+    background-color: var(--primaryColor);
     font-size: 16px;
     margin-top: 3em;
 }
-
+:root  {
+    --primaryColor: rgba(46, 139, 86, 0.144);
+    --secondaryColor: darkslategrey;
+    --tertiaryColor: gray;
+    --hoverColor: lightgray;
+}
 header, body, main, footer {
     max-width: 80%;
     margin: 0 auto;
@@ -29,7 +34,7 @@ header h1 {
 h2 {
     color: white;
     text-align: center;
-    background: darkslategrey;
+    background: var(--secondaryColor);
     margin: 0.68em 0;
 }
 
@@ -43,8 +48,8 @@ header span {
 }
 
 button {
-    background: darkslategrey;
-    border-color: darkslategrey;
+    background: var(--secondaryColor);
+    border-color: var(--secondaryColor);
     text-decoration: none;
     color:aliceblue;
     padding: 0.5em 1em;
@@ -90,7 +95,7 @@ li {
 footer {
     margin-top: 2em;
     margin-bottom: 1em;
-    background: darkslategray;
+    background: var(--secondaryColor);
     color:beige;
     padding: 1em 0;
     text-align: center;
