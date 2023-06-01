@@ -1,0 +1,37 @@
+header, body, main, footer {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 2em 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+p {
+    padding: 1em;
+}
+
+section {
+    margin-bottom: 50em;
+    padding-top: 5em;
+    min-height: 20em;
+}
+
+section > p {
+    margin: 1em 0;
+    padding: 1em;
+}
+
+section ul {
+    padding-left: 2em;
+}
+
+#logo img {
+    height: 20px;
+    width: 20px;
+}
